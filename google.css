@@ -1,0 +1,206 @@
+html, body {
+    height: 100%;
+    min-width: 400px;
+        padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
+
+
+.top {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    padding: 6px;
+}
+.google_info, .google_store {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+}
+.google_info {
+    margin-left: 15px;
+}
+.top_right {
+    display: inline-block;
+    flex-grow: 1;
+}
+.top_right_a {
+    display: block;
+    min-width: auto;
+    position: relative;
+    padding: 0 4px;
+    white-space: nowrap;
+}
+.top_right_menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.google_gmail, .google_image {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+    font-size: 13px;
+    line-height: 27px;
+}
+.google_image {
+    padding-right: 15px;
+}
+.google_apps_img {
+    width: 24px;
+    height: 24px;
+    padding: 8px 8px;
+    vertical-align: middle;
+}
+.apps {
+    padding: 4px;
+    vertical-align: middle;
+}
+.google_login {
+    padding: 9px 15px;
+    margin: 0 8px;
+    background-color: #1a73e8;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    min-width: 96px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+}
+
+
+.logo_sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.google_logo {
+    display: block;
+    margin-top: auto;
+    height: 100%;
+    max-height: 92px;
+    position: relative;
+}
+.google_logo_img {
+    object-fit: contain;
+    object-position: center bottom;
+}
+
+
+.search_sec {
+    display: block;
+    padding: 20px;
+    max-height: 160px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.search {
+    display: block;
+    padding-top: 6px;
+    margin: 0 auto;
+    max-width: 584px;
+    width: auto;
+    position: relative;
+}
+.search_box {
+    display: flex;
+    background-color: #fff;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    margin: 0 auto;
+    max-width: 584px;
+    width: auto;
+}
+.searchbar {
+    height: 34px;
+    border: none;
+    color: black;
+    background-color: transparent;
+    flex: 100%;
+}
+.button_sec {
+    display: block;
+    padding-top: 18px;
+    white-space: nowrap;
+}
+.google_search_but, .google_IFL_but {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    white-space: pre;
+}
+
+
+.blank {
+    display: block;
+    flex-grow: 1;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+
+.bottom {
+    display: block;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    background-color: #f2f2f2;
+}
+.bottom_menu, .bottom_menu_left, .bottom_menu_right {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.bottom_menu {
+    padding: 0px 20px;
+}
+.bottom_nation {
+    padding: 15px 30px;
+    font-size: 15px;
+    border-bottom: 1px solid #dadce0;
+    color: #70757a;
+}
+.ad a, .business a, .principle a, .privacy a, .policy a, .setting a {
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    color: #70757a;
+}
+
+@media screen and (max-width: 545px) {
+    .bottom_menu {
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .bottom_menu {
+        justify-content: space-evenly;
+    }
+}
